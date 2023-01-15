@@ -17,11 +17,6 @@
   resolved "https://registry.yarnpkg.com/@ioredis/commands/-/commands-1.2.0.tgz#6d61b3097470af1fdbbe622795b8921d42018e11"
   integrity sha512-Sx1pU8EM64o2BrqNpEO1CNLtKQwyhuXuqyfH7oGKCk+1a33d2r5saW8zNwm3j6BTExtjrv2BxTgzzkMwts6vGg==
 
-"@types/aws-lambda@^8.10.56":
-  version "8.10.101"
-  resolved "https://registry.yarnpkg.com/@types/aws-lambda/-/aws-lambda-8.10.101.tgz#35d85783a834e04604d49e85dc7ee6e2820e8939"
-  integrity sha512-84geGyVc0H9P9aGbcg/vkDh5akJq0bEf3tizHNR2d1gcm0wsp9IZ/SW6rPxvgjJFi3OeVxDc8WTKCAjoZbogzg==
-
 "@types/body-parser@*":
   version "1.19.2"
   resolved "https://registry.yarnpkg.com/@types/body-parser/-/body-parser-1.19.2.tgz#aea2059e28b7658639081347ac4fab3de166e6f0"
@@ -788,12 +783,10 @@ serve-static@1.15.0:
     parseurl "~1.3.3"
     send "0.18.0"
 
-serverless-http@^2.7.0:
-  version "2.7.0"
-  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-2.7.0.tgz#352ca38cbbba58dc71dcfb11bb27c92c3c81fe69"
-  integrity sha512-iWq0z1X2Xkuvz6wL305uCux/SypbojHlYsB5bzmF5TqoLYsdvMNIoCsgtWjwqWoo3AR2cjw3zAmHN2+U6mF99Q==
-  optionalDependencies:
-    "@types/aws-lambda" "^8.10.56"
+serverless-http@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/serverless-http/-/serverless-http-3.1.1.tgz#086509bad0ed29babf3d189e839a228fa0aabad3"
+  integrity sha512-apCJb/xsB/E2IVT23bG9lBGoPv7kTgwhi6b/Reshc181vJv7Df4hCOj0WNQQRpPoKMEZAuGBEzhdIHUaL3pCLQ==
 
 setprototypeof@1.2.0:
   version "1.2.0"
