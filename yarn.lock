@@ -1219,10 +1219,10 @@ inherits@2.0.4:
   resolved "https://registry.yarnpkg.com/inherits/-/inherits-2.0.4.tgz#0fa2c64f932917c3433a0ded55363aae37416b7c"
   integrity sha512-k/vGaX4/Yla3WzyMCvTQOXYeIHvqOKtnqBduzTHpzpQZzAskKMhZ2K+EnBiSM9zGSoIFeMpXKxa4dYeZIQqewQ==
 
-ioredis@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.2.1.tgz#0e145e1f70478b5838c0b1545959948a049fbbcf"
-  integrity sha512-+rgPUIawiT+L3am9FbUcwjI7R7KtLDUSJNYWF82NZmlUXCZELws7iJkVDuECQoNUHqZTf/EGn3uw9IA+PlBiyg==
+ioredis@^5.2.5:
+  version "5.2.5"
+  resolved "https://registry.yarnpkg.com/ioredis/-/ioredis-5.2.5.tgz#c62dc3945ad2a8f0323fbb2765b934a84a68cde0"
+  integrity sha512-7HKo/ClM2DGLRXdFq8ruS3Uuadensz4A76wPOU0adqlOqd1qkhoLPDaBhmVhUhNGpB+J65/bhLmNB8DDY99HJQ==
   dependencies:
     "@ioredis/commands" "^1.1.1"
     cluster-key-slot "^1.1.0"
