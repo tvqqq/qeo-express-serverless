@@ -140,48 +140,48 @@ atomic-batcher@^1.0.2:
   resolved "https://registry.yarnpkg.com/atomic-batcher/-/atomic-batcher-1.0.2.tgz#d16901d10ccec59516c197b9ccd8930689b813b4"
   integrity sha512-EFGCRj4kLX1dHv1cDzTk+xbjBFj1GnJDpui52YmEcxxHHEWjYyT6l51U7n6WQ28osZH4S9gSybxe56Vm7vB61Q==
 
-aws-xray-sdk-core@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/aws-xray-sdk-core/-/aws-xray-sdk-core-3.4.1.tgz#25592b7e4ed3ebd25ece9c1f258d3f68558e1ab6"
-  integrity sha512-HPQ+9GMF+yhDDXNKPp6HGAIv2yVapKTI7WRs2aN3TT+RxQkbmgO+3JlcMvRL2/lu0RqTVWoYCIhmF9/H/zRL1A==
+aws-xray-sdk-core@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/aws-xray-sdk-core/-/aws-xray-sdk-core-3.5.0.tgz#72ec1f5215477b5e04a745cb638a6e0f8c91a707"
+  integrity sha512-T3mL9mGwnfGyZrf7RsZp702+prTCEMzX7zrqD7flwMZeb6ymXlSgREmeXys80r/9CHFgq/+JR+IclM+hep0yRw==
   dependencies:
     "@aws-sdk/service-error-classification" "^3.4.1"
     "@aws-sdk/types" "^3.4.1"
     "@types/cls-hooked" "^4.3.3"
     atomic-batcher "^1.0.2"
     cls-hooked "^4.2.2"
-    semver "^5.3.0"
+    semver "^7.3.8"
 
-aws-xray-sdk-express@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/aws-xray-sdk-express/-/aws-xray-sdk-express-3.4.1.tgz#e958976db0631b93feaea5db38979f461baea707"
-  integrity sha512-c8efb0ywsvzcqXT0PLbaAG0nMgpbzGu9FOagm569Ic/GMJwglACVAxsHJ3e3fYlRDbq2q6U0QhadqGb4MOa9YQ==
+aws-xray-sdk-express@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/aws-xray-sdk-express/-/aws-xray-sdk-express-3.5.0.tgz#a5af51af4f415d51f65423aa7a7e0cbfb856b372"
+  integrity sha512-nbdghqiHPUe7P04guh/fkBmHCsbY5pwQrDFJAqYimNK3EsB+pq2/FW7m9vodPmHSbqeTgwO/oQUiCnEQ9luf5A==
   dependencies:
     "@types/express" "*"
 
-aws-xray-sdk-mysql@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/aws-xray-sdk-mysql/-/aws-xray-sdk-mysql-3.4.1.tgz#8f2eab61f020953742d09a42a96994e08028ba75"
-  integrity sha512-k2UczelWpBqNZfnG4+czoLDzhxzcvvZXBjvriVTokdXcNknCRG4lBCnSOh/RdvLq62SDaCwmv5c67B3NObfXbg==
+aws-xray-sdk-mysql@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/aws-xray-sdk-mysql/-/aws-xray-sdk-mysql-3.5.0.tgz#2bb4ddc671c5349b97100fbc957bda3b4dfa0dae"
+  integrity sha512-vAEfSPMQq48Fg3H45voljAJT8KX79tLEzW1qz6Kb9Gqv11wihu05074L/DArQnvHnG0DaCPttZD7/nOGFc6sYA==
   dependencies:
     "@types/mysql" "*"
 
-aws-xray-sdk-postgres@3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/aws-xray-sdk-postgres/-/aws-xray-sdk-postgres-3.4.1.tgz#5a24e36d6520186ab9b2e6af5724ee463d2117ea"
-  integrity sha512-3+qfZD8BttjOQ4jzsuRYJzDPOu4dl4nXZPPijAlLUZC978gFIOAWMqJZE6cDmOjXs2BVYdCW8wfiJ1NPYbesBw==
+aws-xray-sdk-postgres@3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/aws-xray-sdk-postgres/-/aws-xray-sdk-postgres-3.5.0.tgz#3e73049908e5446ba0e1c3d165a2383ca170ec91"
+  integrity sha512-3LadT1yuZYLS9RlqdgDQt5z3vojevrggnuGofT2EqsS5EQBVz7NNLYrJdTJsd4TYVVsToNxDBQI5peb2HC8TRw==
   dependencies:
     "@types/pg" "*"
 
-aws-xray-sdk@^3.4.1:
-  version "3.4.1"
-  resolved "https://registry.yarnpkg.com/aws-xray-sdk/-/aws-xray-sdk-3.4.1.tgz#e8991e71ce0b7c89d3c3a54c445209eee27a3c71"
-  integrity sha512-7iz+svMi47EBW3hCGLoMvXYDTG065gg+pdgk/CYXfx0EW9N+uCovKCQodfIwFAMSQ6P4bMxw6jD30h+XtMeTgQ==
+aws-xray-sdk@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/aws-xray-sdk/-/aws-xray-sdk-3.5.0.tgz#ac487761ef8952fd772f36f9aaa69c9a663e61ca"
+  integrity sha512-u9iKR9QAafeoCVk4J1PH6/NbNc/dNsF5T9CoNAST7bMLnGwT9YN4l+N9zxLbuspWv8cdBPoz8dDfbyZNDHgYQQ==
   dependencies:
-    aws-xray-sdk-core "3.4.1"
-    aws-xray-sdk-express "3.4.1"
-    aws-xray-sdk-mysql "3.4.1"
-    aws-xray-sdk-postgres "3.4.1"
+    aws-xray-sdk-core "3.5.0"
+    aws-xray-sdk-express "3.5.0"
+    aws-xray-sdk-mysql "3.5.0"
+    aws-xray-sdk-postgres "3.5.0"
 
 body-parser@1.20.1:
   version "1.20.1"
@@ -486,6 +486,13 @@ lodash@^4.17.21:
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
+lru-cache@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-6.0.0.tgz#6d6fe6570ebd96aaf90fcad1dafa3b2566db3a94"
+  integrity sha512-Jo6dJ04CmSjuznwJSS3pUeWmd/H0ffTlkXXgwZi+eq1UCmqQwCh+eLsYOYCwY991i2Fah4h1BEMCx4qThGbsiA==
+  dependencies:
+    yallist "^4.0.0"
+
 media-typer@0.3.0:
   version "0.3.0"
   resolved "https://registry.yarnpkg.com/media-typer/-/media-typer-0.3.0.tgz#8710d7af0aa626f8fffa1ce00168545263255748"
@@ -728,10 +735,17 @@ saslprep@^1.0.3:
   dependencies:
     sparse-bitfield "^3.0.3"
 
-semver@^5.3.0, semver@^5.4.1:
+semver@^5.4.1:
   version "5.7.1"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.7.1.tgz#a954f931aeba508d307bbf069eff0c01c96116f7"
   integrity sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==
+
+semver@^7.3.8:
+  version "7.5.1"
+  resolved "https://registry.yarnpkg.com/semver/-/semver-7.5.1.tgz#c90c4d631cf74720e46b21c1d37ea07edfab91ec"
+  integrity sha512-Wvss5ivl8TMRZXXESstBA4uR5iXgEN/VC5/sOcuXdVLzcdkz4HWetIoRfG5gb5X+ij/G9rw9YoGn3QoQ8OCSpw==
+  dependencies:
+    lru-cache "^6.0.0"
 
 send@0.18.0:
   version "0.18.0"
@@ -901,3 +915,8 @@ xtend@^4.0.0:
   version "4.0.2"
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.2.tgz#bb72779f5fa465186b1f438f674fa347fdb5db54"
   integrity sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==
+
+yallist@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
+  integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
